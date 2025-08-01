@@ -1,9 +1,11 @@
 <html>
 <head>
-    
     <title>Restaurant</title>
     <meta charset="utf-8">
     <style>
+            html {
+        scroll-behavior: smooth;
+            }
         .atf-img {
             width: 100%;
             height: 400px;
@@ -15,7 +17,7 @@
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;        
         }
         
-        .headline {
+        h1 {
             font-family:"Imperial Script", cursive; 
             color: #20e5e5;
             font-size: 48px;
@@ -97,6 +99,7 @@
         
         .navigation a:hover {
             text-decoration: underline;
+            color: #20e5e5;
         }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,9 +119,9 @@
 
 <div>
     <nav class="navigation">
-        <a href="https:/google.com">Kontakt</a>
-        <a href="https://google.com">Speisekarte</a>
-        <a href="https://google.com">Über uns</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#food">Speisekarte</a>
+        <a href="#adress">Anfahrt</a>
     </nav>
 
 </div>
@@ -140,7 +143,7 @@
     </tr>
 </table>
 </div>
-<div class="container">
+<div class="container" id="adress">
     <h2 >Anfahrt</h2>
     Hier findest du den Weg zu uns. Neumarkt 9, 01067 Dresden<br>
     <iframe class= "maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d40112.92994797426!2d13.709847199797485!3d51.070477129219036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurant%20dresden!5e0!3m2!1sde!2sde!4v1753960023386!5m2!1sde!2sde" 
@@ -151,7 +154,7 @@
 </iframe>
 </div>
 
-<div class="container">
+<div class="container" id="food">
 <h2>Tageskarte</h2>
 <table>
     <tr>
@@ -187,7 +190,7 @@
 </table>
 Jetzt <a href="./src/Tageskarte.pdf" target="_blank" class="linkstyle">herunterladen</a>
 </div>
-<div class="container">
+<div class="container" id="contact">
 <h2>Kontakt</h2>
 So kannst du uns kontaktieren:<br>
 Telefon: <a href="tel:054444656545" class="other-linkstyle">0152354789862</a> <br>
