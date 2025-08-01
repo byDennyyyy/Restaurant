@@ -1,11 +1,13 @@
 <html>
+
 <head>
     <title>Restaurant</title>
     <meta charset="utf-8">
     <style>
-            html {
-        scroll-behavior: smooth;
-            }
+        html {
+            scroll-behavior: smooth;
+        }
+
         .atf-img {
             width: 100%;
             height: 400px;
@@ -14,11 +16,11 @@
 
         .bodyclass {
             margin: 0px;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;        
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-        
+
         h1 {
-            font-family:"Imperial Script", cursive; 
+            font-family: "Imperial Script", cursive;
             color: #20e5e5;
             font-size: 48px;
             filter: drop-shadow(2px 7px 11px black);
@@ -26,7 +28,7 @@
 
         .main-container {
 
-            background-color: rgba(0,0,0,0.6);
+            background-color: rgba(0, 0, 0, 0.6);
             position: absolute;
             top: 0px;
             left: 0px;
@@ -44,15 +46,16 @@
         }
 
         .container {
-           padding-left: 100px;
-           padding-right: 100px;
-           margin-bottom: 64px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-bottom: 64px;
         }
 
         .maps {
             height: 350px;
             width: 100%;
         }
+
         .footer {
             background-color: black;
             color: white;
@@ -60,29 +63,35 @@
             display: flex;
             justify-content: space-between;
         }
+
         .linkstyle {
             color: white;
             text-decoration: none;
         }
+
         .linkstyle:hover {
             text-decoration: underline;
             color: aqua;
         }
+
         .other-linkstyle {
             color: black;
             text-decoration: none;
         }
+
         .other-linkstyle:hover {
             color: aqua;
             text-decoration: underline;
         }
+
         .navigation {
             position: absolute;
             top: 16px;
             right: 100px;
-    
+
 
         }
+
         .navigation a {
             color: white;
             text-decoration: none;
@@ -90,13 +99,13 @@
             margin-left: 16px;
             background-color: #506b6b;
             border-radius: 6px;
-            padding: 6px ;
+            padding: 6px;
             border: white;
             border-color: white;
-            
+
 
         }
-        
+
         .navigation a:hover {
             text-decoration: underline;
             color: #20e5e5;
@@ -104,112 +113,117 @@
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
 
 </head>
+
 <body class="bodyclass">
-    <img class="atf-img"src="./img/header.jpg">
+    <img class="atf-img" src="./img/header.jpg">
 
-<div class="main-container">
-    <h1 class="headline">Herzlich Willkommen</h1>
+    <div class="main-container">
+        <h1 class="headline">Herzlich Willkommen</h1>
         Hier findest du einen Überblick über unsere Speisen.
-</div >
+    </div>
 
-<div>
-    <nav class="navigation">
-        <a href="#contact">Kontakt</a>
-        <a href="#food">Speisekarte</a>
-        <a href="#adress">Anfahrt</a>
-    </nav>
-
-</div>
-
-<div class="container">
-<h2>Unsere Öffnungszeiten</h2>
-<table>
-    <tr>
-        <td>Mo-Fr:</td>
-        <td>11:00 - 18:30 Uhr</td>
-    </tr>
-        <tr>
-        <td>Sa:</td>
-        <td>11:00 - 23:30 Uhr</td>
-    </tr>
-        <tr>
-        <td>So:</td>
-        <td>11:00 - 22:30 Uhr</td>
-    </tr>
-</table>
-</div>
-<div class="container" id="adress">
-    <h2 >Anfahrt</h2>
-    Hier findest du den Weg zu uns. Neumarkt 9, 01067 Dresden<br>
-    <iframe class= "maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d40112.92994797426!2d13.709847199797485!3d51.070477129219036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurant%20dresden!5e0!3m2!1sde!2sde!4v1753960023386!5m2!1sde!2sde" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-</div>
-
-<div class="container" id="food">
-<h2>Tageskarte</h2>
-<table>
-    <tr>
-        <td>1</td>
-        <td>Burger</td>
-        <td>14,99 €</td>
-        <td>Lokales Schweine Patty mit Salat, Käse und Tomaten</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Pizza</td>
-        <td>11,99 €</td>
-        <td>Pizza Magarita mit Tomatensoße</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Spezialpizza</td>
-        <td>14,99 €</td>
-        <td>Pizza mit Spagetti</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Schnitzel</td>
-        <td>13,99 €</td>
-        <td>Schnitzel nach Würzburger Art</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Getränk</td>
-        <td>3,99 €</td>
-        <td>Echte Coca-Cola </td>
-    </tr>
-</table>
-Jetzt <a href="./src/Tageskarte.pdf" target="_blank" class="linkstyle">herunterladen</a>
-</div>
-<div class="container" id="contact">
-<h2>Kontakt</h2>
-So kannst du uns kontaktieren:<br>
-Telefon: <a href="tel:054444656545" class="other-linkstyle">0152354789862</a> <br>
-E-Mail: <a href="mailto:info@restaurant.de" class="other-linkstyle">info@restautrant.de</a> <br>
-</div>
-<div class="container">
-    <h2>Ein Einblick in unser Restaurant</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/a_E4dfOIxCk?si=WcNEw5aCcxpo5EAK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-    <br>
-    <br>
-<div class="footer">
     <div>
-    (c) Copyright 2025 byDennyy Entertainment & Co
-</div>
-<div>
-    <a href="https://rahft.com/talents/bydennyy/#imprint" class="linkstyle">Impressum</a> | 
-    <a href="datenschutz.html" class="linkstyle">Datenschutz</a>
-</div>
-</div>
+        <nav class="navigation">
+            <a href="#contact">Kontakt</a>
+            <a href="#food">Speisekarte</a>
+            <a href="#adress">Anfahrt</a>
+        </nav>
+
+    </div>
+
+    <div class="container">
+        <h2>Unsere Öffnungszeiten</h2>
+        <table>
+            <tr>
+                <td>Mo-Fr:</td>
+                <td>11:00 - 18:30 Uhr</td>
+            </tr>
+            <tr>
+                <td>Sa:</td>
+                <td>11:00 - 23:30 Uhr</td>
+            </tr>
+            <tr>
+                <td>So:</td>
+                <td>11:00 - 22:30 Uhr</td>
+            </tr>
+        </table>
+    </div>
+    <div class="container" id="adress">
+        <h2>Anfahrt</h2>
+        Hier findest du den Weg zu uns. Neumarkt 9, 01067 Dresden<br>
+        <iframe class="maps"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d40112.92994797426!2d13.709847199797485!3d51.070477129219036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurant%20dresden!5e0!3m2!1sde!2sde!4v1753960023386!5m2!1sde!2sde"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <div class="container" id="food">
+        <h2>Tageskarte</h2>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>Burger</td>
+                <td>14,99 €</td>
+                <td>Lokales Schweine Patty mit Salat, Käse und Tomaten</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pizza</td>
+                <td>11,99 €</td>
+                <td>Pizza Magarita mit Tomatensoße</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Spezialpizza</td>
+                <td>14,99 €</td>
+                <td>Pizza mit Spagetti</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Schnitzel</td>
+                <td>13,99 €</td>
+                <td>Schnitzel nach Würzburger Art</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Getränk</td>
+                <td>3,99 €</td>
+                <td>Echte Coca-Cola </td>
+            </tr>
+        </table>
+        Jetzt <a href="./src/Tageskarte.pdf" target="_blank" class="linkstyle">herunterladen</a>
+    </div>
+    <div class="container" id="contact">
+        <h2>Kontakt</h2>
+        So kannst du uns kontaktieren:<br>
+        Telefon: <a href="tel:054444656545" class="other-linkstyle">0152354789862</a> <br>
+        E-Mail: <a href="mailto:info@restaurant.de" class="other-linkstyle">info@restautrant.de</a> <br>
+    </div>
+    <div class="container">
+        <h2>Ein Einblick in unser Restaurant</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a_E4dfOIxCk?si=WcNEw5aCcxpo5EAK"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <div class="footer">
+        <div>
+            (c) Copyright 2025 byDennyy Entertainment & Co
+        </div>
+        <div>
+            <a href="https://rahft.com/talents/bydennyy/#imprint" class="linkstyle">Impressum</a> |
+            <a href="datenschutz.html" class="linkstyle">Datenschutz</a>
+        </div>
+    </div>
 </body>
+
 </html>
